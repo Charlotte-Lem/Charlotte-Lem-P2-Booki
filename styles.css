@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("./css/body.css");
+@import url("./css/navbar.css");
+@import url("./css/search-form.css");
+@import url("./css/filters.css");
+@import url("./css/results-message.css");
+@import url("./css/apartments-list.css");
+@import url("./css/card-apart.css");
+@import url("./css/card-popular.css");
+@import url("./css/activities.css");
+@import url("./css/footer.css");
+
+
+
+
+
+
+
+ /*propriété box-sixing */ 
+* {
+     box-sizing: border-box; /* Opera/IE 8+ */
+    -moz-box-sizing: border-box; /* Firefox, autres Gecko */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, autres WebKit */
+}
+
+:root{
+    --blue: #0065FC;
+    --lightblue: #DEEBFF;
+    --gray: #F2F2F2;
+}
+
+
+
+
+
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    padding: 3% ;
+    background-color: var(--gray);
+}
+
+footer ul li {
+    margin: 3% 0%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer li {
+    font-weight: 500;
+}
+.section_footer {
+    margin-right: 2%;
+    flex: 1;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer h3{
+    font-weight: 800;
+    margin-bottom: 7%;
+}
+
+@media (max-width: 768px){
+
+   footer {
+       flex-direction: column;
+       padding-left: 5%;
+   } 
+
+   footer h3{
+       margin-top: 6%;
+       margin-bottom: 0;
+}
