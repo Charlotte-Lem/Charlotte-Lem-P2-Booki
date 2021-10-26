@@ -2,30 +2,28 @@
 
 .apartments-list{
     gap:30px;
-   display: flex;
-  
+    display: flex;
 }
 
 .city{
     display: flex;
     flex-direction: column;
     flex-basis: 65%;
-    gap: 40px;
     border: 1px solid var(--gray);
     background-color: var(--gray);
     border-radius: 20px;
-    padding: 1%;
+    padding: 12px;
 }
 
 .city h2 {
-    padding-left: 3%;
+    padding-left: 23px;
 }
 
 .city-apartments-list {
     display: flex;  
     flex-wrap: wrap;
     justify-content: space-around;
-    row-gap: 20px;
+    
 }
     
 .apartments-list .city a{
@@ -80,7 +78,8 @@
 .popular h2 {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0 10px 30px;;
+    padding: 10px 0 10px 30px;
+    margin-bottom: 0;
  }
 
  
@@ -99,25 +98,43 @@
     }
 
     .city {
-        margin: 1% 2%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         border: none;
         background-color: white;
+        
 
     }
  }
  
  @media screen and (max-width:768px)
 {  
-    .city-apartments-list {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column; }
-
-    .apartments-list{
-        gap: 20px;
+    .apartments-list h2{
+        padding: 0 10px;
     }
+
+    .city-apartments-list {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column; }
+
+    .city{
+        gap: 5px;
+    }
+
+    .plus{
+        padding: 10px;
+    }
+
+    .popular-list{
+        padding: 5px;
+    }
+
+    
+
+
+
+
 }
 
