@@ -17,18 +17,22 @@
 }
 
 .card-activities {
-   
     max-width: 23%;
     max-height: 535px;
     border-radius: 20px;
     box-shadow: 2px 3px 3px var(--gray);
-    box-sizing: border-box;
 }
+
+.card-activities:hover,
+.activities-list a:hover{
+    color: var(--blue);
+    transition: all 1 ease-out;  
+    transform: scale(1.05);
+    
+ }
 
 
 .card-activities img{
-
-    
     border-radius: 20px 20px 0 0 ;
     max-width: 100%;
 }
@@ -58,16 +62,17 @@
 
 .activities h2{
     margin-top: 2%;
-
 }
-.activities-list h3{
 
+.activities-list h3{
     padding-left: 3%;
     font-size: 14px;
 }
+
 .activities-list p {
     font-weight: 700;
 }
+
 .card-activities-body {
     display: flex;
     max-height: 44px;
@@ -100,7 +105,5 @@
     .activities h2 {
         margin: 5% 4%;
     }
-    
-
 
 }
