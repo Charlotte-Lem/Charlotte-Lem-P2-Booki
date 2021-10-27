@@ -1,4 +1,5 @@
 /* SEARCH-FORM*/
+
 .search-form{
     display: flex;  
     margin-top: 25px;
@@ -8,18 +9,16 @@
     padding: 15px 16px
 }
 
-
 .fas.fa-map-marker-alt{
-   
     background-color: var(--gray);
     border-radius: 12px 0 0 12px;
 }
 
 .search-form input{
-    
     border: 1px solid var(--gray);
     font-weight: 700;
 }
+
 .search-form input::placeholder{
     color: black;
     font: inherit;
@@ -43,9 +42,7 @@ input{
     opacity: 1;
 }
 
-
 .fas.fa-search {
-    
     background-color: inherit;
     display: none ;
 }
@@ -55,7 +52,7 @@ input{
 {    
     
     .search-form{
-        padding: 15px 0 0;
+        margin-top: 30px;
     }
 
     .search-text {
@@ -66,9 +63,9 @@ input{
         border-radius: 12px;
         margin-left: -20px;
     }
+
     .fas.fa-search {
-    
-    display: inline ;
+        display: inline ;
     }
 
 }

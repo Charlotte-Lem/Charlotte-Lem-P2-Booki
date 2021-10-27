@@ -13,7 +13,6 @@
     object-fit: cover;
     width: 350px;
     max-height: 520px;
-
 }
 
 .card-activities {
@@ -28,9 +27,7 @@
     color: var(--blue);
     transition: all 1 ease-out;  
     transform: scale(1.05);
-    
  }
-
 
 .card-activities img{
     border-radius: 20px 20px 0 0 ;
@@ -38,7 +35,6 @@
 }
 
 .big img{
-    
     height: 466px;
 } 
 
@@ -50,14 +46,12 @@
     height: 161px;
 }
 .médium img{
-
     height: 188px;
 }
 
 .activities-list a{
     text-decoration: none;
     color: black;
-    
 }
 
 .activities h2{
@@ -79,7 +73,8 @@
 }
 
 
-@media (max-width: 992px){
+@media (max-width: 992px)
+{
 
     .activities-list{
         gap: 20px;
@@ -96,6 +91,7 @@
         max-width: 100%;
         height: 100%;
     }
+
     .activities-list img {
         object-fit: cover;
         width: 100%;
@@ -106,4 +102,5 @@
         margin: 5% 4%;
     }
 
+    
 }

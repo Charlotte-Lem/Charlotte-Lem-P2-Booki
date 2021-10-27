@@ -6,16 +6,13 @@
 }
 
 #logo{ 
-       
     height: 45px;
     width: auto;
     margin-right: auto;
     padding-left: 10px;
-
 }
 
 nav {
-    
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -25,7 +22,6 @@ nav {
 .sub-nav{
     display: flex;
 }
-
 
 nav a {
     color: black;
@@ -44,6 +40,7 @@ nav a:hover {
 
 @media screen and (max-width:768px)
 {    
+
     body {
         padding:0;
     }
@@ -62,11 +59,9 @@ nav a:hover {
     }
 
     .sub-nav{
-
        flex-basis: 100%;
-
-
     }
+
     .sub-nav a{ 
         flex-basis: 50%;
         text-align: center;
@@ -77,5 +72,6 @@ nav a:hover {
         border-bottom-color: #0065fc;
         border-top-color: transparent;
 
-    }  
+    } 
+     
 }   

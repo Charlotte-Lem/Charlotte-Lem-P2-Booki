@@ -1,4 +1,4 @@
-/*apartments LISTS*/
+/*APARTMENTS LISTS*/
 
 .apartments-list{
     gap:30px;
@@ -23,6 +23,7 @@
     display: flex;  
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 20px 0;
     
 }
     
@@ -35,8 +36,6 @@
 .plus{
     padding: 10px 0 10px 30px;
 }
-
-
 
 /*STARS*/
 
@@ -90,11 +89,10 @@
         flex-direction: column;
         flex-wrap: wrap;
    }
+
     .popular{
-        
         order: -1;
         border-radius: 0;
-        
     }
 
     .city {
@@ -103,9 +101,8 @@
         justify-content: center;
         border: none;
         background-color: white;
-        
-
     }
+
  }
  
  @media screen and (max-width:768px)
@@ -128,6 +125,7 @@
     }
 
     .popular-list{
+        margin-top: 10px;
         padding: 5px;
     }
 
